@@ -43,6 +43,6 @@ This project is archived and not maintained. It represents a moment in time — 
 ## 📄 License
 
 Copyright (c) 2006–2007  
-Ary Junior
+Ary Ferreira (Junior)
 
 This code is shared for educational and historical purposes only. Redistribution or commercial use is not permitted without written permission from the author.
