@@ -1,0 +1,36 @@
+package <XDtDiana:viewCollectionPackage/>;
+
+import java.util.List;
+import java.util.ArrayList;
+import org.dianaframework.servicelocator.BusinessServiceClient;
+import org.dianaframework.servicelocator.BusinessServiceFactory;
+import org.dianaframework.view.BusinessObjectsCollection;
+
+/**
+ * 
+ * @dianaframework.business-service-client
+ *  name="<XDtDiana:collectionName/>"
+ * 
+ */
+public class <XDtDiana:collectionName/> extends BusinessObjectsCollection implements BusinessServiceClient {
+private BusinessServiceFactory sf;
+
+    public List collection() {
+        // Abaixo um exemplo de como interagir com a camada de apresentacao e com a camada de logica de negocios
+        /*
+        try {
+            ExemploBS bs = (ExemploBS)sf.getService("ExemploBS");
+            return bs.getNoticias();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        */
+        return new ArrayList();
+    }
+    
+    public void setServiceFactory(BusinessServiceFactory sf) {
+        this.sf = sf;
+    }
+
+}

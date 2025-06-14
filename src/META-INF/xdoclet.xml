@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Description for ANT.
+    $Id: xdoclet.xml 1594 2007-02-07 11:12:15Z bruno $ 
+-->
+
+<!--
+<!DOCTYPE xdoclet-module PUBLIC "-//XDoclet Team//DTD XDoclet Module 1.0//EN" "http://xdoclet.sourceforge.net/dtd/xdoclet-module_1_0.dtd">
+-->
+
+<xdoclet-module>
+    <!--
+        org.dianaframework.xdoclet.DianaDocletTask
+        org.dianaframework.xdoclet.DianaTagsHandler
+        org.dianaframework.xdoclet.ClientConfigSubTask
+        org.dianaframework.xdoclet.XWorkSubTask
+        org.dianaframework.model.xdoclet.DAOSpringHibernate3SubTask
+        org.dianaframework.model.xdoclet.HibernateConfigSubTask
+        org.dianaframework.swing.xdoclet.AbstractTableModelSubTask
+        org.dianaframework.swing.xdoclet.AbstractListModelSubTask
+        org.dianaframework.xdoclet.BaseActionSubTask
+        org.dianaframework.xdoclet.ActionSubTask
+        org.dianaframework.xdoclet.CollectionSubTask
+        org.dianaframework.xdoclet.BaseBSSubTask
+    -->
+
+    <taghandler
+        namespace="Diana"
+        class="org.dianaframework.xdoclet.DianaTagsHandler"
+    />
+
+    <subtask
+        name="hibernateconfig"
+        implementation-class="org.dianaframework.model.xdoclet.HibernateConfigSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="daospringhibernate3"
+        implementation-class="org.dianaframework.model.xdoclet.DAOSpringHibernate3SubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="clientconfig"
+        implementation-class="org.dianaframework.xdoclet.ClientConfigSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="xwork"
+        implementation-class="org.dianaframework.xdoclet.XWorkSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="applicationcontextspring"
+        implementation-class="org.dianaframework.xdoclet.ApplicationContextSpringSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="tablemodel"
+        implementation-class="org.dianaframework.swing.xdoclet.AbstractTableModelSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="listmodel"
+        implementation-class="org.dianaframework.swing.xdoclet.AbstractListModelSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="action"
+        implementation-class="org.dianaframework.xdoclet.ActionSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="baseaction"
+        implementation-class="org.dianaframework.xdoclet.BaseActionSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="collection"
+        implementation-class="org.dianaframework.xdoclet.CollectionSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+    <subtask
+        name="basebs"
+        implementation-class="org.dianaframework.xdoclet.BaseBSSubTask"
+        parent-task-class="org.dianaframework.xdoclet.DianaDocletTask"
+    />
+
+</xdoclet-module>

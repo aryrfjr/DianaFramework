@@ -1,0 +1,33 @@
+package <XDtDiana:viewActionPackage/>;
+
+import org.dianaframework.action.Action;
+
+/**
+ *
+ * @dianaframework.action
+ * 
+ */
+public class <XDtDiana:actionName/> extends Action {
+    
+    public String execute() {
+        // Abaixo um exemplo de como interagir com a camada de apresentacao e com a camada de logica de negocios
+        /*
+        ExemploBS bs = (ExemploBS)sf.getService("ExemploBS");
+        Noticia noticia = new Noticia();
+        noticia.setId(Integer.parseInt(getFormFieldValue("jtxtfldIdNoticia")));
+        noticia.setTitulo(getFormFieldValue("jtxtfldTituloNoticia"));
+        noticia.setConteudo(getFormFieldValue("jtxtaConteudoNoticia"));
+        noticia.setOpcao(getFormFieldValue("bgpOpcao"));
+        noticia.setJornais(getIntegerFormFieldValue("jtxtJornais"));
+        noticia.setDataPublicacao(getDateFormFieldValue("jtxtDataPublicacao"));
+        try {
+            bs.salvarNoticia(noticia);
+            return SUCCESS;
+        } catch(Exception e) {
+            return ERROR;
+        }
+        */
+        return SUCCESS;
+    }
+    
+}
