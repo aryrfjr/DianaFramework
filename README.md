@@ -23,6 +23,8 @@ This code reflects a phase of my career where I was solving complex problems wit
 
 This framework was part of a personal and professional effort to improve how public-sector Java systems were built. It was proposed to CAEd/UFJF and influenced the design direction of internal systems like **SisLAME**. I wrote and maintained this code independently and submitted it as a framework proposal.
 
+- 📄 **NOTE**: See a Proof of Concept prepared for CAEd/UFJF at [ExemploCAEdDianaFramework](https://github.com/aryrfjr/ExemploCAEdDianaFramework)
+
 ## ⚠️ Disclaimer
 
 This repository contains source code that I **independently authored** outside the scope of my contract with CAEd/UFJF. It does **not** include any proprietary or confidential work from CAEd, and is shared strictly for educational and historical purposes.
