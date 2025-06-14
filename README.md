@@ -2,7 +2,7 @@
 
 **DianaFramework** is a Java-based MVC/MVP framework that I independently developed between 2006 and 2007, during a time when enterprise Java applications were heavily reliant on tools like Ant, XDoclet, and early Spring. It was designed to support modular, GUI-based systems using Swing and JPA/Hibernate.
 
-> 🚀 Originally hosted at Código Livre: [http://cvs.dianaframework.codigolivre.org.br](http://cvs.dianaframework.codigolivre.org.br)  
+> 🚀 Originally hosted at Código Livre: [http://cvs.dianaframework.codigolivre.org.br](http://cvs.dianaframework.codigolivre.org.br) (discontinued).
 > 🏛️ Preserved here for archival, educational, and professional reflection.
 
 ## ✨ Purpose
